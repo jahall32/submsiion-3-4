@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="post.css" />
+    <title>Document</title>
+    <style>
+        img.post-image-thumbnail{
+            width:60%;
+        }
+
+        body section ul {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        button{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 12px;
+        border: 2px solid rgba(51, 51, 51, 0);
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        background-color: rgb(93, 12, 245);
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="logout.html">Logout</a></li>
+        <li><a href="register.html">Register</a></li>
+        <Li><a href="app">Application</a></Li>
+        <Li><a href="profile.html">Profile</a></Li>
+    </ul>
+
+    <section>
+     <h2>Recent Posts</h2>
+
+        <div class="card2">
+         <ul id="recent-posts"></ul>
+         <script src="scripts/viewposts.js"></script>    
+        </div>
+    </section>  
+
+
+    <button onclick="newPostPage()">New Post</button>
+  
+    
+</body>
+</html>
+    
+</script>
+
+
+</html>

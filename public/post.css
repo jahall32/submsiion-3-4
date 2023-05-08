@@ -1,0 +1,92 @@
+/* Style the recent posts list */
+#recent-posts {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the post items */
+  #recent-posts li {
+    width: calc(30%);
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style the post text */
+  #recent-posts li p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  /* Style the post buttons */
+  #recent-posts li button {
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the post image thumbnail */
+  .post-image-thumbnail {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    object-fit: cover;
+    align-items: center;
+  }
+  
+  
+  /* Style the comments list */
+  #recent-posts li ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  /* Style the comment items */
+  #recent-posts li ul li {
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Style the comment text */
+  #recent-posts li ul li p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  /* Style the comment buttons */
+  #recent-posts li ul li button {
+    background-color: transparent;
+    color: #007bff;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  #recent-posts li button:hover {
+  
+    background-color: #0d4c8e;
+   
+  }
+  
+  
